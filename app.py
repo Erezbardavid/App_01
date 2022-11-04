@@ -11,5 +11,8 @@ def home():
 def thankyou():
     return render_template("thankyou.html")
 
-if __name__ == "__main__":
+def run():
     app.run(debug=True)
+
+if __name__ == "__main__":
+    run()
